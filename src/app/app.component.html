@@ -1,5 +1,7 @@
 <hello name="{{ name }}"></hello>
-
+<p>
+  In this example you can get knowledge of data binding,event binding and component interation(parent to child and child to parent)
+</p>
 <app-add-item (addedItem)="onAddItem($event)"></app-add-item>
 <p>Item list</p>
 <app-view-item *ngFor="let item of itemDetails"
