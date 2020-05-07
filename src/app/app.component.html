@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+
+<app-add-item (addedItem)="onAddItem($event)"></app-add-item>
+<p>Item list</p>
+<app-view-item *ngFor="let item of itemDetails"
+ [items]='item'></app-view-item>
