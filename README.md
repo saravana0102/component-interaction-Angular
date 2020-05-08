@@ -5,5 +5,5 @@
 ##clone the project using url
 ##Run below the commands to run the application
 
-  npm install
-  ng serve --4200
+1. npm install
+2. ng serve --4200
